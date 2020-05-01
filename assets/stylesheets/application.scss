@@ -58,6 +58,12 @@
       width: 100%;
       margin: 5px;
       cursor: pointer;
+      transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    }
+
+    .gif:hover {
+      transform: scale(0.7, 0.7);
+      opacity: 0.9;
     }
   }
 }
